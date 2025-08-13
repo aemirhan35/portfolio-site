@@ -1,0 +1,20 @@
+.about-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.about-content.open {
+  max-height: 500px; /* içerik boyutuna göre ayarla */
+  opacity: 1;
+}
+
+.buttons {
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
